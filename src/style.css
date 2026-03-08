@@ -1,0 +1,90 @@
+body {
+  font-family: Arial;
+  margin: 0;
+  background: linear-gradient(to bottom, #f0f0f0, #a0a0a0);
+}
+
+.container {
+  width: 1200px;
+  margin: auto;
+}
+
+.header {
+  padding: 20px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #333;
+}
+
+.btn-primary {
+  background: #ff3f3a;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  cursor: pointer;
+}
+
+.btn-outline {
+  border: 1px solid #ff3f3a;
+  background: none;
+  padding: 12px 20px;
+}
+
+.hero {
+  padding: 80px 0;
+  margin-bottom: 100px;
+}
+
+.hero-inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #1e212c;
+  margin: auto 0;
+}
+
+.hero-image {
+  width: 600px;
+  height: 550px;
+}
+
+.about-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about-image {
+  width: 450px;
+  height: 400px;
+}
+
+.categories-grid,
+.team-grid,
+.blog-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.card,
+.member,
+.post {
+  border: 1px solid #eee;
+  padding: 20px;
+}
