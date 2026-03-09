@@ -266,3 +266,35 @@ h2 {
 p {
   line-height: 1.6;
 }
+
+.course-card-buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.course-form-wrapper {
+  margin-top: 50px;
+  padding: 25px;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.6);
+}
+
+body.dark-theme .course-form-wrapper {
+  border: 1px solid #444;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.course-form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.course-form-buttons {
+  grid-column: span 2;
+  display: flex;
+  gap: 15px;
+}
